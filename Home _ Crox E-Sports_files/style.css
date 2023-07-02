@@ -53,7 +53,10 @@ body {
 /* Home Page Header Section Style */
 
 .banner-section-outer{
-    background-color: black;
+    background-image: url("./bannerbgsjce.jpg");
+    /* filter: brightness(70%); */
+    background-color: grey;
+    background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

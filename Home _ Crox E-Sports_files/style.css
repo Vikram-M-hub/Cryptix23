@@ -55,7 +55,7 @@ body {
 .banner-section-outer{
     background-image: url("./bannerbgsjce.jpg");
     /* filter: brightness(70%); */
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.793);
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;

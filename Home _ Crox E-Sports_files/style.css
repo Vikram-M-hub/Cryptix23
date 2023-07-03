@@ -1078,7 +1078,7 @@ body {
 /* Home Page Footer Section Style */
 
 .footer-section {
-    background-color: var(--e-global-color-accent);
+    background-color: rgb(69, 1, 1);
     padding: 118px 0 0;
 }
 
@@ -2608,7 +2608,58 @@ textarea {
         clip-path: circle(60% at 55% 77%);
     }
 }
+
+.banner .relaycodeimg {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background: no-repeat url("https://via.placeholder.com/1200x800") center center;
+    background-size: cover;
+    clip-path: circle(50vw at 100% 50%);
+}
+
+@media only screen and (max-width: 767px) {
+    .banner .relaycodeimg  {
+        order: 2;
+        display: block;
+        position: relative;
+        width: 100%;
+        height: calc(100vw * 2 / 3);
+        clip-path: circle(60% at 55% 77%);
+    }
+}
+
+
+.banner .hyperhurdleimg {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background: no-repeat url("https://via.placeholder.com/1200x800") center center;
+    background-size: cover;
+    clip-path: circle(50vw at 100% 50%);
+}
+
+@media only screen and (max-width: 767px) {
+    .banner .hyperhurdleimg  {
+        order: 2;
+        display: block;
+        position: relative;
+        width: 100%;
+        height: calc(100vw * 2 / 3);
+        clip-path: circle(60% at 55% 77%);
+    }
+}
 /* --------------- */
+
+ .inner{
+    padding: 30px;
+ }
 
 .banner.with-image .dataforge {
     background: no-repeat url("./DataForge.png") center center;
@@ -2625,8 +2676,17 @@ textarea {
     background-size: cover;
     }
 
+.banner.with-image .relaycodeimg {
+    background: no-repeat url("./relay_coding\ white.png") center center;
+    background-size: cover;
+    }   
 
+    
 
+.banner.with-image .hyperhurdleimg {
+    background: no-repeat url("./Hyperhurdle.png") center center;
+    background-size: cover;
+    }   
 
 /* --------------------- */
 
@@ -2658,7 +2718,7 @@ textarea {
 }
 
 .banner .overlay .inner .content {
-    width: calc(50% - 20px);
+    width: calc(70% - 20px);
     padding: 10px;
 }
 

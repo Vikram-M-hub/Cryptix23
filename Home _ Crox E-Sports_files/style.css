@@ -82,6 +82,7 @@ body {
     color: var(--e-global-color-white) !important;
     position: relative;
     transition: all 0.3s ease-in-out;
+    margin-left: 35px;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -220,7 +221,7 @@ body {
 /* Home Page Banner Section Style */
 
 .banner-section {
-    padding: 100px 0 322px;
+    padding: 0px 0 322px;
 }
 
 .banner-section h1 {
@@ -2704,7 +2705,7 @@ textarea {
     z-index: 2;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
     .banner .overlay {
         display: block;
         position: relative;

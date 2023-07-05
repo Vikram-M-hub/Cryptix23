@@ -2669,7 +2669,7 @@ textarea {
 .banner.with-image .dataforge {
     background: no-repeat url("./DataForge.png") center center;
     background-size: cover;
-    
+
 }
 
 .banner.with-image .cyberquestimg {
@@ -2708,14 +2708,14 @@ textarea {
     left: 0;
     top: 0;
     z-index: 2;
-    
+
 }
 
 @media only screen and (max-width: 800px) {
     .banner .overlay {
         display: block;
         position: relative;
-        
+
     }
 }
 
@@ -2764,17 +2764,50 @@ header {
 }
 
 .banner-section-content {
-    
+
     /* width: 80%; */
     padding-left: 30%;
     /* padding-right: 10%; */
     position: inherit;
 }
 
-.titlecryp{
+.titlecryp {
     text-align: center;
 }
 
-.buttonsection{
+.buttonsection {
     margin-left: -80px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #000;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.card-paragraph {
+    display: none;
+    font-weight: 100;
+    font-size: 19px;
+}
+
+.expand-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

@@ -2790,7 +2790,7 @@ header {
     background-color: #000;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: rgba(255, 0, 0, 0.663) 0px 4px 12px;
     transform: scale(1.05);
 
@@ -2823,6 +2823,31 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+}
 
 
+
+.wrapper {
+    width: 50%;
+    margin: 40px auto;
+}
+
+.get_in_touch_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    line-height: 0.5;
+}
+
+@media (max-width: 768px) {
+    .get_in_touch_section {
+        flex-direction: column;
+    }
+}
+
+.get_in_touch_section>div {
+    margin-bottom: 10px;
+}
